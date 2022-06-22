@@ -57,7 +57,7 @@ def main():
 
 control = ''
 def predict(image):
-    classifier_model = "pages\model2.h5"
+    classifier_model = "pages/model2.h5"
 
     model = load_model(classifier_model)
 
